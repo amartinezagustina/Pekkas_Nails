@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(248, 5, 171);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(248, 5, 171)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+h1{
+    font-size: 0;
+    width: 100 px;
+    height: 80 px;
+    margin: 0% 0% 20% 0%;
+    
+}
+
+
+nav{
+    background-color: #ffffff;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(225, 5, 123);
+}
+
+nav ul li{
+    list-style: none;
+    margin: 10%;
+
+}
+
+.navbar-expand-lg .navbar-collapse{
+    flex-basis: auto;
+    justify-content: flex-end;
+    padding-right: 6rem;
+
+}
+
+h2{
+    text-align: center;
+    margin: 2% 0 2% 0 !important;
+    font-weight: 800 !important;
+    font-size: 40px !important;
+    color: rgb(225, 5, 123);
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+}
+
+section article{
+    background-color: rgb(225, 5, 123);
+    border-radius: 2%;
+    margin: 1% auto;
+    max-width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 1%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+article p{
+    margin: 1% 1%;
+
+}
+
+.turno{
+    background-color: rgb(225, 5, 123) ;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.btn-pekka{
+    background-color: white;
+    color: rgb(225, 5, 123) ;
+}
+
+.btn-pekka:hover{
+    background-color: rgb(143, 1, 79);
+    color: rgb(255, 255, 255) ;
+}
+
+.cont-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+fieldset{
+     color: rgb(252, 252, 252);
+}
+
+legend {
+    color:#ffffff;
+    padding: 5px 10px;
+    text-align: center;
+}
+input {
+    margin: 5px;
+}
+
+.horario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+}
+
+
+form{
+    margin: auto;
+    background-color: rgb(225, 5, 123);
+    border-radius: 2%;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    padding-bottom: 1% !important;
+    color: #ffffff;
+}
+
+form div{
+    margin: 1% 1% 0 1% ;
+}
+
+form h2{
+    color: #ffffff;
+}
+
+.btn-primary{
+    background-color: #ffffff;
+    color: rgb(143, 1, 79);
+}
+
+section p{
+    text-align: center;
+}
+
+
+.selecEsculpida{
+    display: none;
+}
+
+.selecKapping{
+    display: none;
+}
+
+.selecSemi{
+    display: none;
+}
+
+.selecForm{
+    display: none;
+}
+
+.visible{
+    display: block;
+} 
+
+footer{
+    padding: 5px;
+}
+
+table{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+
+
+}
